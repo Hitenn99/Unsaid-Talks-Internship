@@ -1,0 +1,50 @@
+#Create a program that takes user input for name and age ,then prints a greeting message.
+
+# Taking user input
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+
+# Printing a greeting message
+print(f"Hello {name}! You are {age} years old. Welcome!")
+
+########################################################################################################################################
+
+# write a python code to check if a number is positive, negative or zero.
+
+# Take input from the user
+num = float(input("Enter a number: "))
+
+# Check if the number is positive, negative, or zero
+if num > 0:
+    print("The number is positive.")
+elif num < 0:
+    print("The number is negative.")
+else:
+    print("The number is zero.")
+
+#######################################################################################################################################
+
+# Perform all arithmatic operations on two numbers
+# Take input from the user
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+# Perform arithmetic operations
+print(f"Addition: {num1} + {num2} = {num1 + num2}")
+print(f"Subtraction: {num1} - {num2} = {num1 - num2}")
+print(f"Multiplication: {num1} * {num2} = {num1 * num2}")
+print(f"Division: {num1} / {num2} = {num1 / num2 if num2 != 0 else 'Undefined (division by zero)'}")
+print(f"Modulus: {num1} % {num2} = {num1 % num2 if num2 != 0 else 'Undefined (modulus by zero)'}")
+print(f"Floor Division: {num1} // {num2} = {num1 // num2 if num2 != 0 else 'Undefined (floor division by zero)'}")
+print(f"Exponentiation: {num1} ** {num2} = {num1 ** num2}")
+
+#######################################################################################################################################
+
+# Write a program to swap values of two variables without using a third variable
+a = int(input("Enter first number (a): "))
+b = int(input("Enter second number (b): "))
+
+a, b = b, a
+
+print(f"After swapping: a = {a}, b = {b}")
+
